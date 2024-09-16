@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modal CSS Start */
+.modal-wrapper {
+    max-width: 600px;
+    height: 600px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #e0e0e0;
+}
+
+.modal-wrapper::-webkit-scrollbar {
+    width: 12px;
+}
+
+.modal-wrapper::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+.modal-wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+
+}
+
+.modal-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Modal End Start */

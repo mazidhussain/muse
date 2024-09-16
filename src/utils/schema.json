@@ -1,0 +1,159 @@
+[
+  {
+    "type": "autocomplete",
+    "required": false,
+    "label": "Autocomplete",
+    "className": "form-control",
+    "name": "autocomplete-1722092738694-0",
+    "access": false,
+    "requireValidOption": false,
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": true
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      },
+      {
+        "label": "Option 3",
+        "value": "option-3",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "button",
+    "label": "Button",
+    "subtype": "button",
+    "className": "btn-default btn",
+    "name": "button-1722092739727-0",
+    "access": false,
+    "style": "default"
+  },
+  {
+    "type": "number",
+    "required": false,
+    "label": "Number",
+    "className": "form-control",
+    "name": "number-1722092746278-0",
+    "access": false,
+    "subtype": "number"
+  },
+  {
+    "type": "select",
+    "required": false,
+    "label": "Select",
+    "className": "form-control",
+    "name": "select-1722092751027-0",
+    "access": false,
+    "multiple": false,
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": true
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      },
+      {
+        "label": "Option 3",
+        "value": "option-3",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "checkbox-group",
+    "required": false,
+    "label": "Checkbox Group",
+    "toggle": false,
+    "inline": false,
+    "name": "checkbox-group-1722092740915-0",
+    "access": false,
+    "other": false,
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "subtype": "p",
+    "label": "Paragraph",
+    "access": false
+  },
+  {
+    "type": "text",
+    "required": false,
+    "label": "Text Field",
+    "className": "form-control",
+    "name": "text-1722092752490-0",
+    "access": false,
+    "subtype": "text"
+  },
+  {
+    "type": "textarea",
+    "required": false,
+    "label": "Text Area",
+    "className": "form-control",
+    "name": "textarea-1722092753910-0",
+    "access": false,
+    "subtype": "textarea"
+  },
+  {
+    "type": "date",
+    "required": false,
+    "label": "Date Field",
+    "className": "form-control",
+    "name": "date-1722092742283-0",
+    "access": false,
+    "subtype": "date"
+  },
+  {
+    "type": "radio-group",
+    "required": false,
+    "label": "Radio Group",
+    "inline": false,
+    "name": "radio-group-1722092749649-0",
+    "access": false,
+    "other": false,
+    "values": [
+      {
+        "label": "Option 1",
+        "value": "option-1",
+        "selected": false
+      },
+      {
+        "label": "Option 2",
+        "value": "option-2",
+        "selected": false
+      },
+      {
+        "label": "Option 3",
+        "value": "option-3",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "type": "header",
+    "subtype": "h1",
+    "label": "Header",
+    "access": false
+  },
+  {
+    "type": "hidden",
+    "name": "hidden-1722092744978-0",
+    "access": false
+  }
+]

@@ -1,0 +1,35 @@
+.form-wrap.form-builder {
+    display: flex;
+    gap: 10px;
+}
+
+.form-wrap.form-builder ul {
+    height: 586px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    padding: 100px;
+    scrollbar-color: #cecece #f5f5f5;
+}
+
+.form-wrap.form-builder ul::-webkit-scrollbar {
+    width: 8px;
+}
+
+.form-wrap.form-builder ul::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px; /* Border radius for the track */
+}
+
+.form-wrap.form-builder ul::-webkit-scrollbar-thumb {
+    background: #cecece;
+    border-radius: 10px; 
+}
+
+.form-wrap.form-builder ul::-webkit-scrollbar-thumb:hover {
+    background: #7a7a30;
+}
+
+.form-wrap.form-builder ul li {
+    border: 1px solid #cecece;
+    border-radius: 4px;
+}
